@@ -9,4 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This circuit computes the inverse S-box of the Advanced Encryption Standard (AES)
+This circuit computes the inverse S-box of the Advanced Encryption Standard (AES).
+
+## How to test
+
+Set the input byte, then read back the result from uo\_out (unregistered) or uio\_out (registered).
+
+## External hardware
+
+None.
